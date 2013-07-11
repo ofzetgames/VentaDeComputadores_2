@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link type="text/css" rel="stylesheet" href="js/estiloProductos.css"> 
+<script src="js/jquery.min.js"></script> 
+
+<title>Untitled Document</title>
+
+</head>
+<body>
+
+
+<div class="divContenido">
+
+<div class="divMenus">
+
+  
+  <center>
+  <br/>
+  
+  
+  <div class="divUsuario">
+  <span>Mi Cuenta</span>
+  <p>Aqui el Nombre</p>
+  <br/>
+
+  <form method="get" action="salir.jsp" name="formsalir">
+  <INPUT TYPE= "submit" VALUE="Salir" class="botonSalir"> 
+  </form>
+  </div>
+<br/>
+
+
+<div class="divCarrito">
+ <span>Mi Carrito</span>
+ 
+</div>
+
+
+
+
+<div class="divPasarCaja">
+<a href="caja.view" class="linkcaja"><p onMouseOver="this.style.color='red'; " onMouseOut="this.style.color='black';">Pasar a Caja</p></a>
+</div>
+<br/>
+
+</center>
+
+</div>
+
+
+<div class="divContenedorProductos">
+      
+    <div class="divExito"><center><h2 class="exitoletra">Su compra se ha realizado exitosamente!</h2><br/>
+        <form method="get" action="compras.view" name="formvercompras">
+          <INPUT TYPE= "submit" VALUE="Ver compras" class="botonVerCompras"> 
+</form>
+    </center></div>
+
+</div>
+
+</div>
+</body>
+</html>

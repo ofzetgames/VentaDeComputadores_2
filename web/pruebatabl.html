@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" href="js/magnific-popup.css"> 
+<link type="text/css" rel="stylesheet" href="js/estiloProductos.css"> 
+<script src="js/jquery.min.js"></script> 
+<script src="js/jquery.magnific-popup.js"></script> 
+
+<script>
+$(document).ready(function() {
+
+	$('.image-popup-vertical-fit').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		mainClass: 'mfp-img-mobile',
+		image: {
+			verticalFit: true
+		}
+		
+	});	
+
+});
+</script>
+<title>Catalogo de Productos</title>
+</head>
+
+<body>
+
+<div class="divProducto">
+
+<div class="divNombreproducto">
+<span class="nombreProducto">Nombre del Productouuuuuuubuuuuubububuub</span>
+</div><br/>
+
+
+<a class="image-popup-vertical-fit" href="notebook.jpg" title="Nombre del Producto">
+<img src="notebook.jpg" class="imagenProducto" /></a>
+<br/><br/>
+<span class="precioProducto">$10000</span><br/><br/>
+<form name="formDetalles" action="verProducto.jsp" target="_blank" method="get">
+    <input type="submit" value="Ver Detalles" class="botonDetalles">
+  </form>
+  <br/>
+  <form name="formCarrito" action="agregarCarrito.jsp" target="_blank" method="post">
+    <input type="submit" value="Añadir a Carrito" class="botonCarrito">
+  </form>
+</div>
+</body>
+</html>

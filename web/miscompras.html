@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="js/magnific-popup.css"> 
+<link type="text/css" rel="stylesheet" href="js/estiloProductos.css"> 
+<script src="js/jquery.min.js"></script> 
+<script src="js/jquery.magnific-popup.js"></script> 
+
+<script>
+$(document).ready(function() {
+
+	$('.image-popup-vertical-fit').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		mainClass: 'mfp-img-mobile',
+		image: {
+			verticalFit: true
+		}
+		
+	});	
+
+});
+</script>
+
+
+<title>Untitled Document</title>
+
+</head>
+<body>
+
+
+<center>
+<div class="divLogo">
+<center>
+<br/>
+<img src="imagenes/logo.png"  />
+</center>
+</div>
+</center>
+
+
+
+
+
+
+<div class="divContenido">
+
+<div class="divMenus">
+
+  
+  <center>
+  <br/>
+  
+  
+  <div class="divUsuario">
+  <span>Mi Cuenta</span>
+  <p>Aqui el Nombre</p>
+  <br/>
+
+  <form method="get" action="salir.jsp" name="formsalir">
+  <INPUT TYPE= "submit" VALUE="Salir" class="botonSalir"> 
+  </form>
+  </div>
+<br/>
+
+
+<div class="divCarrito">
+ <span>Mi Carrito</span>
+ 
+</div>
+
+
+
+
+<div class="divPasarCaja">
+<a href="caja.view" class="linkcaja"><p onMouseOver="this.style.color='red'; " onMouseOut="this.style.color='black';">Pasar a Caja</p></a>
+</div>
+<br/>
+
+</center>
+
+</div>
+
+
+<div class="divContenedorProductos">
+
+
+    <div class="divTablaCaja">
+    
+    <center><h2 class="exitoletra">Lista de compras ya pagadas</h2></center> 
+    <table width="812" class="tablaCaja" bordercolor="#333333" border="2px">
+    <thead >
+    <th width="111" class="tablaCajathead">Id Producto</th>
+    <th width="393" class="tablaCajathead">Nombre Producto</th>
+    <th width="136" class="tablaCajathead">Fecha de Compra</th> <tbody>
+    
+    
+   
+   
+    <tr><td class="tablaCajatbody">id</td>
+    <td class="tablaCajatbody">nombre</td>
+    <td class="tablaCajatbody">fecha</td>
+    </tr>
+    
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+</div>
+
+</div>
+</body>
+</html>

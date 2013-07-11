@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<link type="text/css" rel="stylesheet" href="js/estiloProductos.css">
+<link rel="stylesheet" href="js/jquery-ui.css" /> 
+<script src="js/jquery.min.js"></script> 
+
+<script>
+
+$(document).ready(function(){
+ $("#oculto").hide(); 
+ $("#ocultoTienda").hide();
+ $("#ocultoVisa").hide();
+$("#mostrarPago").click(function(){
+    $("#oculto").show(1000);
+  });
+$("#elegirTienda").click(function(){
+    $("#ocultoTienda").show(1000);
+	$("#ocultoVisa").hide();
+  });
+$("#elegirVisa").click(function(){
+    $("#ocultoVisa").show(1000);
+	$("#ocultoTienda").hide();
+  });
+  
+});
+
+</script>
+
+
+
+<title>Untitled Document</title>
+
+</head>
+<body>
+
+
+<div class="divContenido">
+
+<div class="divMenus">
+
+  
+  <center>
+  <br/>
+  
+  
+  <div class="divUsuario">
+  <span>Mi Cuenta</span>
+  <p>Aqui el Nombre</p>
+  <br/>
+
+  <form method="get" action="salir.jsp" name="formsalir">
+  <INPUT TYPE= "submit" VALUE="Salir" class="botonSalir"> 
+  </form>
+  </div>
+<br/>
+
+
+<div class="divCarrito">
+ <span>Mi Carrito</span>
+ 
+</div>
+
+
+
+
+<div class="divPasarCaja">
+<a href="caja.view" class="linkcaja"><p onMouseOver="this.style.color='red'; " onMouseOut="this.style.color='black';">Pasar a Caja</p></a>
+</div>
+<br/>
+
+</center>
+
+</div>
+
+
+<div class="divContenedorProductos">
+
+    
+    
+    <div class="divTablaCaja">
+    <table width="812" class="tablaCaja" bordercolor="#333333" border="2px">
+    <thead >
+    <th width="111" class="tablaCajathead">Id Producto</th>
+    <th width="393" class="tablaCajathead">Nombre Producto</th>
+    <th width="136" class="tablaCajathead">Precio</th>
+    
+    <th width="142" class="tablaCajathead">Eliminar</th>
+    
+    
+    </thead>
+    <tbody>
+    
+    
+   
+   
+    <tr><td class="tablaCajatbody">id</td>
+    
+    <td class="tablaCajatbody">nombre</td>
+   
+    <td class="tablaCajatbody">Precio</td>
+    
+    
+    <td class="tablaCajatbody"><form method="post" name="formEliminarconCantidad" action="eliminarConCantidad.do">
+    <input type="hidden" name="idProducto" value="" />
+    <input type="submit" value="Eliminar" name="botonEliminar" class="botonEliminarCaja" />
+    </form></td>
+    </tr>
+    
+    
+    
+    </tbody>
+    </table>
+    
+    <div class="precioTotal">Precio Total: $<span class="precioTotal2">10000</span>
+    <br/>
+   
+    
+<input type="button" value="Pagar" class="botonPagar" id="mostrarPago"> 
+    
+    </div>
+    
+    
+    
+    <div class="datosUsuario">
+    <span>Nombrecompleto</span><br/>
+    <span>Rut</span><br/>
+    <span>Direccion</span><br/>
+    <span>Region</span><br/>
+    <span>Comuna</span><br/>
+    <span>Telefono</span><br/>
+    <span>Email</span>
+    </div>
+    
+    
+ 
+    </div>
+    
+    
+   <div id="oculto" class="divTablaCaja">
+   <div class="tablaMetodos"><center><h2>Elija metodo de pago</h2></center>
+   <input type="button" value="Tarjeta Visa" class="botonMetodo1" id="elegirVisa">
+   
+   <input type="button" value="Tarjeta de Tienda" class="botonMetodo2" id="elegirTienda">
+   
+   </div>
+   </div>
+   
+   
+   
+    
+    
+    <div id="ocultoTienda" class="divTablaCaja"> 
+<center><br/><h2>Metodo Tarjeta de Tienda</h2><form name="formPago" action="pagar.do" method="post"><table class="tablaTienda">
+<tr><td width="136">Numero de Tarjeta:</td><td width="300"><input type="text" name="direccionEnvio" width="250" value="" class="inputUseryPass" />
+</td>
+</tr>
+</table><input type="submit" name="direccionEnvio" value="Enviar" class="botonEnviar" /></form><br/></center>
+</div>
+
+
+
+
+
+ <div id="ocultoVisa" class="divTablaCaja"> 
+<center><br/><h2>Metodo Tarjeta Visa</h2><form name="formPago" action="pagar.do" method="post"><table class="tablaTienda">
+<tr><td width="136">Numero de Tarjeta:</td><td width="300"><input type="text" name="direccionEnvio" width="250" value="" class="inputUseryPass" />
+
+<input type="hidden" name="usuariooculto" value="" />
+</td>
+</tr>
+</table><input type="submit" name="direccionEnvio" value="Enviar" class="botonEnviar" /></form><br/></center>
+</div>
+
+
+
+
+
+</div>
+
+</div>
+</body>
+</html>

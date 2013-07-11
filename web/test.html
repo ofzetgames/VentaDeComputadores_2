@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="js/magnific-popup.css"> 
+<link type="text/css" rel="stylesheet" href="js/estiloProductos.css"> 
+<script src="js/jquery.min.js"></script> 
+<script src="js/jquery.magnific-popup.js"></script> 
+
+<script>
+$(document).ready(function() {
+
+	$('.image-popup-vertical-fit').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		mainClass: 'mfp-img-mobile',
+		image: {
+			verticalFit: true
+		}
+		
+	});	
+
+});
+</script>
+
+
+<title>Untitled Document</title>
+
+</head>
+<body>
+
+
+<div class="divContenido">
+
+<div class="divMenus">
+
+  
+  <center>
+  <br/>
+  
+  
+  <div class="divUsuario">
+  <span>Mi Cuenta</span>
+  <p>Aqui el Nombre</p>
+  <br/>
+
+  <form method="get" action="salir.jsp" name="formsalir">
+  <INPUT TYPE= "submit" VALUE="Salir" class="botonSalir"> 
+  </form>
+  </div>
+<br/>
+
+
+<div class="divCarrito">
+ <span>Mi Carrito</span>
+ 
+</div>
+
+
+
+
+<div class="divPasarCaja">
+<a href="caja.view" class="linkcaja"><p onMouseOver="this.style.color='red'; " onMouseOut="this.style.color='black';">Pasar a Caja</p></a>
+</div>
+<br/>
+
+</center>
+
+</div>
+
+
+<div class="divContenedorProductos">
+
+    <div class="divDetalleProducto1">
+     <center><br/>
+     <a class="image-popup-vertical-fit" href="imagenes/notebook.jpg" title="Nombre del Producto">
+     <img src="imagenes/notebook.jpg" class="imgDetallesProducto"></img></a>
+     </center>
+    </div>
+
+
+     
+    <div class="divDetalleProducto2">
+      
+      <span class="info1">Codigo de producto: <font color="#333333">ID 1</font>
+      </span>
+      <span class="info2">Stock de producto: <font color="#333333">3</font>
+      </span>
+      
+      
+      
+      <div class="tituloProducto">
+      <span>Titulo Nombre Producto
+      </span>
+      </div>
+      
+      <br/><br/><br/>
+      
+      <div class="detallePrecio">
+      <span class="detallePrecio2">Precio:
+      </span>
+
+      <span >$ 1000
+      </span>
+      </div>
+      <br/>
+      
+      
+      
+      <div class="divFormCantidadPedido">
+      <form action="logearseaccion.view" method="post" name="formularioLogeo">
+  
+  <label for="inputCantidad" >Cantidad :</label>
+<input name="inputCantidad"  type="text" class="inputCantidad" value="1"/>
+<br/><br/>
+<input name="submit" type="submit" value="Agregar al Carro" class="botonAgregarCarro"/> 
+
+</form>
+      </div>
+      
+    </div>
+    <div class="divDetalleProducto3">
+    <div class="contenidoProducto3"></div>
+    </div>
+
+</div>
+
+</div>
+</body>
+</html>

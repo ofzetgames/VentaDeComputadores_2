@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="js/magnific-popup.css"> 
+<link type="text/css" rel="stylesheet" href="js/estiloProductos.css"> 
+<script src="js/jquery.min.js"></script> 
+<script src="js/jquery.magnific-popup.js"></script> 
+
+<script>
+$(document).ready(function() {
+
+	$('.image-popup-vertical-fit').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		mainClass: 'mfp-img-mobile',
+		image: {
+			verticalFit: true
+		}
+		
+	});	
+
+});
+</script>
+
+
+<title>Untitled Document</title>
+
+</head>
+<body>
+
+
+<div class="divContenido">
+  <div class="divMenus">
+
+  
+  <center>
+  <br/>
+  
+  
+  <div class="divUsuario">
+  <span>Mi Cuenta</span>
+  <p>Aqui el Nombre</p>
+  <br/>
+
+  <form method="get" action="salir.jsp" name="formsalir">
+  <INPUT TYPE= "submit" VALUE="Salir" class="botonSalir"> 
+  </form>
+  </div>
+<br/>
+
+
+<div class="divCarrito">
+ <span>Mi Carrito</span>
+ 
+</div>
+
+
+
+
+<div class="divPasarCaja">
+<a href="caja.view" class="linkcaja"><p onMouseOver="this.style.color='red'; " onMouseOut="this.style.color='black';">Pasar a Caja</p></a>
+</div>
+<br/>
+
+</center>
+
+</div>
+
+
+<div class="divContenedorProductos">
+
+
+    <div class="divTablaCaja">
+    <center>
+    <br/>
+   <form name="formPago" action="pagar.do" method="post"><table class="tablaTienda2">
+   
+<tr><td width="150">Imagen de comprobante:</td><td width="300">
+<input type="file" name="photo" size="30" />
+</td>
+</tr>
+</table><input type="hidden" name="idPedido" value="YUVUYDFTUCUIU"><input type="submit" name="direccionEnvio" value="Enviar" class="botonEnviar" /> </form>
+<br/>
+    </center>
+    </div>
+
+
+
+</div>
+
+</div>
+</body>
+</html>

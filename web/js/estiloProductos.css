@@ -1,0 +1,774 @@
+.datosUsuario
+{
+	width: auto;
+	height: auto;
+	float: left;
+	margin-left: 15px;
+	margin-top: 30px;
+	text-align: left;
+	color: #333333;
+	font-style: italic;
+	font-family:"Times New Roman", Times, serif;
+	margin-bottom:20px;
+}
+.fondo{
+
+    background-position: center center;
+    background: radial-gradient(circle, #666666, #ECFDFF);
+
+}
+.nombreProducto
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: #666666;
+    text-decoration: underline;
+	
+}
+.divNombreproducto
+{
+	margin-top:10px;
+	max-width:200px;
+	max-height:18px;
+	word-wrap: break-word; 
+	
+}
+.info1
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    float:left;
+    margin-left:10px;
+    margin-top:10px;
+}
+.info2
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    float:right;
+    margin-right:10px;
+    margin-top:10px;
+}
+.tituloProducto
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    color: #000000;
+    text-shadow: #75B5B5 0.15em 0.15em 0.05em;
+    font-weight: bold;
+}
+.detallePrecio
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: right;
+    margin-right: 10px;
+    color: #666666;
+    font-weight: bold;
+}
+.detallePrecio2
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+.divFormCantidadPedido
+{
+    float:right;
+    margin-right: 10px;
+}
+.inputCantidad
+{
+    border: #666666 solid 2px;
+
+}
+.botonAgregarCarro{
+    font-size:10px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    background-color: #666666;
+    border:0px;
+    width:150px;
+    height:20px;
+
+}
+
+.precioProducto
+{
+    font-size: large;
+    color: #666666;
+    font-weight: bold;
+    font-family: "Lucida Console", Monaco, monospace;
+    text-shadow: #75B5B5 0.15em 0.15em 0.05em;
+}
+.imagenProducto
+{
+    width:150px;
+    height:150px;
+    border: powderblue solid 2px;
+
+
+}
+.botonDetalles{
+    font-size: 10px;
+    font-family: Verdana,Helvetica;
+    font-weight: bold;
+    color: white;
+    background-color: #666666;
+    border: 0px;
+    width: 100px;
+    height: 19px;
+}
+.botonCarrito{
+    font-size:10px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    background-color: #666666;
+    border:0px;
+    width:100px;
+    height:19px;
+}
+.divLogin
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #B2B2B2;
+    height: 250px;
+    width: 400px;
+    border: powderblue solid 2px;
+    border-radius: 10px;
+    text-align: right;
+    color: #666666;
+    margin-top: -125px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: -200px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    -moz-box-shadow: 3px 3px 4px #111;
+    -webkit-box-shadow: 3px 3px 4px #111;
+    box-shadow: 3px 3px 4px #111;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111')";
+    /* IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111');
+}
+.divLogin2
+{
+    background-color: #CECECE;
+    height: 200px;
+    width: 250px;
+    border: powderblue solid 4px;
+    border-radius: 10px;
+    color: #666666;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: right;
+
+}
+.botonAcceder{
+    font-size: 10px;
+    font-family: Verdana,Helvetica;
+    font-weight: bold;
+    color: white;
+    background-color: #666666;
+    border: 0px;
+    width: 100px;
+    height: 19px;
+    float:right;
+    right: 3px;
+}
+.botonAcceder2{
+    font-size: 15px;
+    font-family: Verdana,Helvetica;
+    font-weight: bold;
+    color: white;
+    background-color: #666666;
+    border: 0px;
+    width: 150px;
+    height: 30px;
+    float:right;
+    margin-right:20px;
+    right: 3px;
+}
+.botonAcceder3{
+    font-size: 10px;
+    font-family: Verdana,Helvetica;
+    font-weight: bold;
+    color: white;
+    background-color: #666666;
+    border: 0px;
+    width: 80px;
+    height: 19px;
+    float:right;
+    margin-right:5px;
+    right: 3px;
+}
+.botonRegistrarse{
+    font-size: 10px;
+    font-family: Verdana,Helvetica;
+    font-weight: bold;
+    color: white;
+    background-color: #666666;
+    border: 0px;
+    width: 100px;
+    height: 19px;
+    float: left;
+
+}
+.botonRegistrarse2{
+    font-size: 10px;
+    font-family: Verdana,Helvetica;
+    font-weight: bold;
+    color: white;
+    background-color: #666666;
+    border: 0px;
+    width: 80px;
+    height: 19px;
+    float: left;
+    margin-left:5px;
+    margin-bottom: 10px;
+}
+.inputUseryPass
+{
+    border: #666666 solid 2px;
+}
+
+
+
+.divProducto {
+    background-color: #CECECE;
+    height: 350px;
+    width: 200px;
+    border: powderblue solid 2px;
+    border-radius: 10px;
+    text-align: center;
+    color: #666666;
+    float: left;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:5px;
+    margin-left:5px;
+}
+.divDetalleProducto1 {
+    background-color: #CECECE;
+    height: 300px;
+    width: 410px;
+    border: powderblue solid 2px;
+    border-radius: 10px;
+    text-align: center;
+    color: #666666;
+    float: left;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:5px;
+    margin-left:5px;
+}
+.divDetalleProducto2 {
+    background-color: #CECECE;
+    height: 300px;
+    width: 410px;
+    border: powderblue solid 2px;
+    border-radius: 10px;
+    text-align: center;
+    color: #666666;
+    float: right;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:5px;
+    margin-left:5px;
+}
+.divDetalleProducto3 {
+    background-color: #CECECE;
+    height: auto;
+    width: 842px;
+    border: powderblue solid 2px;
+    border-radius: 10px;
+
+    color: #666666;
+    float: left;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:5px;
+    margin-left:5px;
+}
+.contenidoProducto3
+{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:10px;
+    margin-left:10px;
+}
+.divContenedorProductos{
+    border: powderblue solid 2px;
+    height: auto;
+    width: 856px;
+    background-color: #B2B2B2;
+    float: left;
+    overflow: hidden;
+    margin-left: 14px;
+
+}
+.divLogo
+{
+	
+    height: 100px;
+    overflow: hidden;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    overflow: hidden;
+	width: 1100px;
+	margin-left: 10px;
+}
+.divMenus
+{
+    background: #B2B2B2 repeat-y;
+    height: 100%;
+    border: powderblue solid 2px;
+
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: small;
+    color: #666666;
+
+    float: right;
+    width: 230px;
+    overflow: hidden;
+    margin-right: 7px;
+}
+.divVolver
+{
+    background-color: #CECECE;
+    height: 50px;
+    border: powderblue solid 2px;
+
+    color: #666666;
+    border-radius: 10px;
+
+    width: 200px;
+    overflow: hidden;
+
+}
+.divUsuario
+{
+    background-color: #CECECE;
+    height: auto;
+    border: powderblue solid 2px;
+
+    color: #666666;
+    border-radius: 10px;
+
+    width: 200px;
+    overflow: hidden;
+
+}
+
+.divCarrito
+{
+    background-color: #CECECE;
+    height: 100%;
+    border: powderblue solid 2px;
+    text-align: center;
+    color: #666666;
+    border-radius: 10px;
+
+    width: 200px;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+
+}
+.divContenido
+{
+    width: 1130px;
+    min-height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.botonSalir{
+    font-size: 10px;
+    font-family: Verdana,Helvetica;
+    font-weight: bold;
+    color: white;
+    background-color: #666666;
+    border: 0px;
+    width: 70px;
+    height: 19px;
+    float: right;
+}
+.imgDetallesProducto
+{
+    height:250px;
+    width:350px;
+    border: powderblue solid 2px;
+
+}
+.divRegistrarse2
+{
+    background-color: #CECECE;
+    height: 520px;
+    width: 460px;
+    border: powderblue solid 4px;
+    border-radius: 10px;
+    color: #666666;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: left;
+
+}
+.divRegistrarse
+{
+
+
+    background-color: #B2B2B2;
+    height: 560px;
+    width: 500px;
+    border: powderblue solid 2px;
+    border-radius: 10px;
+    text-align: right;
+    color: #666666;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    -moz-box-shadow: 3px 3px 4px #111;
+    -webkit-box-shadow: 3px 3px 4px #111;
+    box-shadow: 3px 3px 4px #111;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111')";
+    /* IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111');
+
+
+
+
+
+
+}
+.divSepararinputs
+{
+    margin-left: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.divRegistrarseSuceso2
+{
+    background-color: #CECECE;
+    height: 460px;
+    width: 460px;
+    border: powderblue solid 4px;
+    border-radius: 10px;
+    color: #666666;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: left;
+
+}
+.divRegistrarseSuceso
+{
+
+    background-color: #B2B2B2;
+    height: 560px;
+    width: 500px;
+    border: powderblue solid 2px;
+    border-radius: 10px;
+    text-align: right;
+    color: #666666;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    -moz-box-shadow: 3px 3px 4px #111;
+    -webkit-box-shadow: 3px 3px 4px #111;
+    box-shadow: 3px 3px 4px #111;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111')";
+    /* IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111');
+
+}
+.tablacarrito
+{
+
+    width:100%;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+.botonEliminar
+{
+    font-size: 10px;
+    color: red;
+    background-color: #666666;
+    font-weight: bold;
+
+}
+.divPasarCaja
+{
+    background-color: #CECECE;
+    height: 60px;
+    border: powderblue solid 2px;
+    border-radius: 10px;
+    width: 200px;	
+    overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    text-shadow: #75B5B5 0.15em 0.15em 0.05em;
+    font-weight: bold;
+	
+
+}
+.linkcaja
+{
+	color:#000000;
+	text-decoration:none;
+}
+.divTablaCaja {
+    background-color: #CECECE;
+    height: auto;
+    width: 842px;
+    border: powderblue solid 2px;
+    border-radius: 10px;
+
+    color: #666666;
+    float: left;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:5px;
+    margin-left:5px;
+}
+.tablaCaja
+{
+	margin-top:10px;
+    margin-bottom:10px;
+    margin-right:10px;
+    margin-left:10px;
+	
+}
+.tablaCajathead
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+        
+        background-color: powderblue;
+}
+.tablaCajatbody
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: black;
+	
+}
+.botonEliminarCaja
+{
+	 font-size: 12px;
+    font-family: Verdana,Helvetica;
+    font-weight: bold;
+    color: red;
+    background-color: #666666;
+    border: 0px;
+    width: 100px;
+    height: 19px;
+    
+}
+.precioTotal
+{
+	font-size: 13px;
+	color: #666666;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: italic;
+	float:right;
+	margin-right:20px;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+.precioTotal2
+{
+	font-size:x-large;
+	color: #666666;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: normal;
+}
+.botonPagar
+{
+    font-size: 25px;
+    color: white;
+    background-color: #666666;
+    font-weight: bold;
+	width:200px;
+	margin-top:10px;
+        float:right;
+
+}
+.botonMetodo1
+{
+    font-size: 25px;
+    color: mediumblue;
+    background-color: #666666;
+    font-weight: bold;
+	width:200px;
+	margin-top:10px;
+	margin-bottom:10px;
+        float:right;
+		margin-right:150px;
+
+}
+.botonMetodo2
+{
+    font-size: 25px;
+    color: powderblue;
+    background-color: #666666;
+    font-weight: bold;
+	width:300px;
+	margin-top:10px;
+	margin-bottom:10px;
+
+
+}
+.tablaMetodos
+{
+	margin-top:10px;
+    margin-bottom:10px;
+    margin-right:10px;
+    margin-left:10px;
+	
+}
+.tablaTienda
+{
+	margin-top:10px;
+    margin-bottom:10px;
+    
+	
+}
+.tablaTienda2
+{
+	margin-top:10px;
+    margin-bottom:10px;
+
+    
+	
+}
+.botonEnviar{
+    font-size: 18px;
+    font-family: Verdana,Helvetica;
+    font-weight: bold;
+    color: white;
+    background-color: #666666;
+    border: 0px;
+    width: 100px;
+    height: 30px;
+    
+}
+.divExito {
+    background-color: #CECECE;
+    height: auto;
+    width: 842px;
+    border: powderblue solid 2px;
+    border-radius: 10px;
+
+    color: #666666;
+    float: left;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:5px;
+    margin-left:5px;
+}
+.exitoletra
+{
+	color:#000;
+	text-shadow: #75B5B5 0.15em 0.15em 0.05em;
+}
+.botonVerCompras
+{
+    font-size: 25px;
+    color: white;
+    background-color: #666666;
+    font-weight: bold;
+	width:200px;
+	margin-bottom:30px;
+        
+		
+
+}
+.divbotonesmenuuser
+{
+	margin-bottom: 20px;
+}
+.botonMenuUser1
+{
+	margin-bottom: 10px;
+	font-size: 15px;
+    font-family: Verdana,Helvetica;
+    font-weight: bold;
+    color: white;
+    background-color: #666666;
+    border: powderblue solid 2px;
+    border-radius: 5px;
+    width: 150px;
+    height: 28px;
+    
+}
+.botonMenuUser2
+{
+	margin-bottom: 10px;
+	font-size: 15px;
+    font-family: Verdana,Helvetica;
+    font-weight: bold;
+    color: powderblue;
+    background-color: #666666;
+    border: powderblue solid 2px;
+    border-radius: 5px;
+    width: 150px;
+    height: 28px;
+    
+}
+.botonEnviar4{
+    font-size: 18px;
+    font-family: Verdana,Helvetica;
+    font-weight: bold;
+    color: white;
+    background-color: #666666;
+    border: 0px;
+    width: 200px;
+    height: 30px;
+	margin-top: 10px;
+    
+}
+.botonVerPedido
+{
+	font-size: 14px;
+    font-family: Verdana,Helvetica;
+    font-weight: bold;
+    color: white;
+    background-color: #666666;
+    border: 0px;
+    width: 80px;
+    height: 20px;
+	
+	
+}
